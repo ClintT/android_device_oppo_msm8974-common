@@ -151,6 +151,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
+# LMKD stats logging
+TARGET_LMKD_STATS_LOG := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
 
